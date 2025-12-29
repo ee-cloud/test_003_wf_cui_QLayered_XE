@@ -29,7 +29,7 @@ ComfyUIのルートディレクトリ（`ComfyUI_windows_portable`）にある�
 .\python_embeded\python.exe -c "from diffusers import QwenImageLayeredPipeline; print('Success.')"
 ```
 
-・.\ComfyUI_windows_portable\ComfyUI\custom_nodes\ ディレクトリ内に，CompyUI-Qwen-Layered-xe ディレクトリを入れる。
-・ComfyUI等を更新して再起動する。
-・workflow.jsonを読み込む。
-・画像ファイルを読込み，プロンプト等を設定して実行する。
+- ・.\ComfyUI_windows_portable\ComfyUI\custom_nodes\ ディレクトリ内に，CompyUI-Qwen-Layered-xe ディレクトリを入れる。
+- ・ComfyUI等を更新して再起動する。
+- ・workflow.jsonを読み込む。
+- ・画像ファイルを読込み，プロンプト等を設定して実行する。
