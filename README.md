@@ -16,7 +16,7 @@ Qwen-Image-LayeredをComfyUIで実行するためのカスタムノードおよ�
 - **最適化**: `low_vram` を `False` に設定すると、VRAMを優先的に使用する代わりにRAM消費を抑えられる可能性があります。
 
 ## 簡易セットアップ手順（メモ）
-- ・ComfyUIのルートディレクトリ（`ComfyUI_windows_portable`）にあるターミナル等で、以下のコマンドを順に実行。
+- ComfyUIのルートディレクトリ（`ComfyUI_windows_portable`）にあるターミナル等で、以下のコマンドを順に実行。
 
 ```bash
 # 既存のdiffusersをアンインストール
@@ -29,7 +29,7 @@ Qwen-Image-LayeredをComfyUIで実行するためのカスタムノードおよ�
 .\python_embeded\python.exe -c "from diffusers import QwenImageLayeredPipeline; print('Success.')"
 ```
 
-- ・.\ComfyUI_windows_portable\ComfyUI\custom_nodes\ ディレクトリ内に，CompyUI-Qwen-Layered-xe ディレクトリを入れる。
-- ・ComfyUI等を更新して再起動する。
-- ・workflow.jsonを読み込む。
-- ・画像ファイルを読込み，プロンプト等を設定して実行する。
+- .\ComfyUI_windows_portable\ComfyUI\custom_nodes\ ディレクトリ内に，CompyUI-Qwen-Layered-xe ディレクトリを入れる。
+- ComfyUI等を更新して再起動する。
+- workflow.jsonを読み込む。
+- 画像ファイルを読込み，プロンプト等を設定して実行する。
