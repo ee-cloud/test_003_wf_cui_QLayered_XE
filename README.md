@@ -26,11 +26,11 @@ Qwen-Image-LayeredをComfyUIで実行するためのカスタムノードおよ�
 - ComfyUIのルートディレクトリ（`ComfyUI_windows_portable`）にあるターミナル等で、以下のコマンドを順に実行。
 
 ```bash
+# 必要ライブラリをインストール
+.\python_embeded\python.exe -m pip install --upgrade transformers accelerate python-pptx
+
 # 既存のdiffusersをアンインストール
 .\python_embeded\python.exe -m pip uninstall -y diffusers
-
-# 必要ライブラリをインストール
-.\python_embeded\python.exe -m pip install --upgrade diffusers transformers accelerate python-pptx
 
 # Qwen-Image-Layered対応の特定コミットをインストール
 .\python_embeded\python.exe -m pip install --no-cache-dir git+https://github.com/huggingface/diffusers.git@f7753b1bc8b4b3b97dc7f71d51ccb3a281b17b48
