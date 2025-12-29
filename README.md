@@ -1,6 +1,6 @@
 
 ## 概要
-Qwen-Image-Layeredを実行用のテスト用ノードとテスト用ワークフローです。
+Qwen-Image-Layeredを実行するためのテスト用ノードとテスト用ワークフローです。
 ComfyUI (windows portable) 0.6.0、Diffusers 0.36.0.dev0 で動作確認。
 VRAMの消費が少ない代わりに、メモリを約55GB使用するため実行にはご注意ください。
 おそらくlow_vramをFalseにすると、VRAMを使用する代わりにメモリは抑えられると思います。（未確認）
