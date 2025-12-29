@@ -15,8 +15,8 @@ Qwen-Image-LayeredをComfyUIで実行するためのカスタムノードおよ�
 - **メモリ消費**: デフォルト（low_vram: True）では、VRAM消費を抑える代わりにメインメモリ（RAM）を**約55GB**使用します。
 - **最適化**: `low_vram` を `False` に設定すると、VRAMを優先的に使用する代わりにRAM消費を抑えられる可能性があります。
 
-## 簡易セットアップ手順
-ComfyUIのルートディレクトリ（`ComfyUI_windows_portable`）にあるターミナル等で、以下のコマンドを順に実行してください。
+## 簡易セットアップ手順（メモ）
+- ・ComfyUIのルートディレクトリ（`ComfyUI_windows_portable`）にあるターミナル等で、以下のコマンドを順に実行。
 
 ```bash
 # 既存のdiffusersをアンインストール
