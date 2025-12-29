@@ -15,7 +15,8 @@ Qwen-Image-LayeredをComfyUIで実行するためのカスタムノードおよ�
 ## 動作確認環境
 - **ComfyUI**: Windows Portable版 v0.6.0
 - **Diffusers**: 0.36.0.dev0 (Git開発版)
-- **VRAM**: 16GB (RTX 4060 Ti) での動作を確認
+- **VRAM**: 16GB (RTX 4060 Ti) での動作を確認（low_vram: True ※）
+- ※low_vram: True の場合は，8GBでも動作はすると思います。（未確認）
 
 ## 注意事項
 - **メモリ消費**: デフォルト（low_vram: True）では、VRAM消費を抑える代わりにメインメモリ（RAM）を**約55GB**使用します。
